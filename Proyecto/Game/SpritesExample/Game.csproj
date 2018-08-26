@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2D70BC79-6247-4404-B788-1D810EA77D74}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Game</RootNamespace>
+    <AssemblyName>SpritesExample</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acceso.cs" />
+    <Compile Include="Animado.cs" />
+    <Compile Include="Ayuda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ayuda.Designer.cs">
+      <DependentUpon>Ayuda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Base.cs" />
+    <Compile Include="CoinPlata.cs" />
+    <Compile Include="Corona.cs" />
+    <Compile Include="Creditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Creditos.Designer.cs">
+      <DependentUpon>Creditos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Escudo.cs" />
+    <Compile Include="Hacha.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="CoinOro.cs" />
+    <Compile Include="Misil.cs" />
+    <Compile Include="Pergamino.cs" />
+    <Compile Include="Personaje.cs" />
+    <Compile Include="Enemigo.cs" />
+    <Compile Include="Juego.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Juego.Designer.cs">
+      <DependentUpon>Juego.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Posion.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Rayo.cs" />
+    <Compile Include="Vector2.cs" />
+    <Compile Include="Vida.cs" />
+    <EmbeddedResource Include="Ayuda.resx">
+      <DependentUpon>Ayuda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Creditos.resx">
+      <DependentUpon>Creditos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Juego.resx">
+      <DependentUpon>Juego.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scoot1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scoot2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scoot3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scoot4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scoot6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scoot7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scoot8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scoot9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scoot10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootRun1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootRun2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootRun3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootRun4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootRun5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootRun6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootRun7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootRun8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootStill1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootStill2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootStill3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootStill4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootStill5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootStill6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootHit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootHit2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootHit3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootHit4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootHit5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootHit6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ghost10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GuitarSmash1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GuitarSmash2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GuitarSmash4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GuitarSmash5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GuitarSmash3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootPower1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootPower2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScootPower3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Base1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Base2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Base3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Base4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Base5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Base6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Base7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Car1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Car2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Car3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntroGame1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntroGame2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntroGame3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntroGame4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntroGame5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IntroGame6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pergamino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pergamino2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pergamino3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Posion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PosionCafe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PosionNaranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PosionVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VestidoRojo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VestidoVerde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoinPlata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Corona.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EscudoMono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EscudoUnicornio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EspadaDorada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hacha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LlaveFuego.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PergaminoPaz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PosionAzul1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vela.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cerveza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cetro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoinOro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forest.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

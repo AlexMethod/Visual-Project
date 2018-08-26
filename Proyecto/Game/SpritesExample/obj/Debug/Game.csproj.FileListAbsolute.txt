@@ -1,0 +1,14 @@
+C:\Users\alval\Documents\Visual Studio 2013\Projects\SpritesExample\SpritesExample\bin\Debug\SpritesExample.exe.config
+C:\Users\alval\Documents\Visual Studio 2013\Projects\SpritesExample\SpritesExample\bin\Debug\SpritesExample.exe
+C:\Users\alval\Documents\Visual Studio 2013\Projects\SpritesExample\SpritesExample\bin\Debug\SpritesExample.pdb
+C:\Users\alval\Documents\Visual Studio 2013\Projects\SpritesExample\SpritesExample\obj\Debug\Game.csprojResolveAssemblyReference.cache
+C:\Users\alval\Documents\Visual Studio 2013\Projects\SpritesExample\SpritesExample\obj\Debug\Interop.WMPLib.dll
+C:\Users\alval\Documents\Visual Studio 2013\Projects\SpritesExample\SpritesExample\obj\Debug\Game.csproj.ResolveComReference.cache
+C:\Users\alval\Documents\Visual Studio 2013\Projects\SpritesExample\SpritesExample\obj\Debug\Game.Menu.resources
+C:\Users\alval\Documents\Visual Studio 2013\Projects\SpritesExample\SpritesExample\obj\Debug\Game.Properties.Resources.resources
+C:\Users\alval\Documents\Visual Studio 2013\Projects\SpritesExample\SpritesExample\obj\Debug\Game.csproj.GenerateResource.Cache
+C:\Users\alval\Documents\Visual Studio 2013\Projects\SpritesExample\SpritesExample\obj\Debug\SpritesExample.exe
+C:\Users\alval\Documents\Visual Studio 2013\Projects\SpritesExample\SpritesExample\obj\Debug\SpritesExample.pdb
+C:\Users\alval\Documents\Visual Studio 2013\Projects\SpritesExample\SpritesExample\obj\Debug\Game.Ayuda.resources
+C:\Users\alval\Documents\Visual Studio 2013\Projects\SpritesExample\SpritesExample\obj\Debug\Game.Creditos.resources
+C:\Users\alval\Documents\Visual Studio 2013\Projects\SpritesExample\SpritesExample\obj\Debug\Game.Juego.resources

@@ -1,0 +1,12 @@
+c:\users\alval\documents\visual studio 2013\Projects\SpritesExample\SpritesExample\bin\Debug\SpritesExample.exe.config
+c:\users\alval\documents\visual studio 2013\Projects\SpritesExample\SpritesExample\bin\Debug\SpritesExample.exe
+c:\users\alval\documents\visual studio 2013\Projects\SpritesExample\SpritesExample\bin\Debug\SpritesExample.pdb
+c:\users\alval\documents\visual studio 2013\Projects\SpritesExample\SpritesExample\obj\Debug\SpritesExample.csprojResolveAssemblyReference.cache
+c:\users\alval\documents\visual studio 2013\Projects\SpritesExample\SpritesExample\obj\Debug\SpritesExample.Form1.resources
+c:\users\alval\documents\visual studio 2013\Projects\SpritesExample\SpritesExample\obj\Debug\SpritesExample.Properties.Resources.resources
+c:\users\alval\documents\visual studio 2013\Projects\SpritesExample\SpritesExample\obj\Debug\SpritesExample.csproj.GenerateResource.Cache
+c:\users\alval\documents\visual studio 2013\Projects\SpritesExample\SpritesExample\obj\Debug\SpritesExample.exe
+c:\users\alval\documents\visual studio 2013\Projects\SpritesExample\SpritesExample\obj\Debug\SpritesExample.pdb
+C:\Users\alval\Documents\Visual Studio 2013\Projects\SpritesExample\SpritesExample\obj\Debug\SpritesExample.Menu.resources
+C:\Users\alval\Documents\Visual Studio 2013\Projects\SpritesExample\SpritesExample\obj\Debug\Interop.WMPLib.dll
+C:\Users\alval\Documents\Visual Studio 2013\Projects\SpritesExample\SpritesExample\obj\Debug\SpritesExample.csproj.ResolveComReference.cache
